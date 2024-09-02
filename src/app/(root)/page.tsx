@@ -1,0 +1,29 @@
+import Hero from "@/components/Hero";
+import Portfolio from "@/components/portfolio";
+import Skill from "@/components/Skill";
+import SwiperBar from "@/components/swiperBar";
+
+export default function Home() {
+  return (
+
+    <main className="z-10 relative">
+      {/* hero section */}
+      <section className="wrapper relative mt-[75px] sm:mt-[100px]  " id="/">
+        <Hero />
+      </section>
+      {/* Slider section*/}
+      <section className="relative 2xl:wrapper">
+        <SwiperBar />
+      </section>
+      {/* Skills Section */}
+      <section className="relative wrapper" id="services">
+        <Skill />
+      </section>
+      {/* portfolio section */}
+      <section className="wrapper relative" id="portfolio">
+        <Portfolio />
+      </section>
+
+    </main>
+  );
+}
