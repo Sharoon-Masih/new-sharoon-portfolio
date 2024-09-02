@@ -22,7 +22,7 @@ const layout = ({ children }: { children: ReactNode }) => {
       </div>
       {/* vector 4 */}
       <div
-        className=' h-[718.52px] w-[431px] md:w-[531px] lg:w-[426.32px] absolute top-[3371.95px] left-0 z-0 bg-[url("/vectors/Vector-4.png")] overflow-hidden blur-xl'>
+        className=' h-[718.52px] w-[231px] md:w-[426.32px]  absolute top-[3371.95px] left-0 z-0 bg-[url("/vectors/Vector-4.png")] overflow-hidden blur-xl'>
       </div>
     </>
   )
