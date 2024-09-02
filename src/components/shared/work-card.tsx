@@ -25,7 +25,7 @@ const Workcard = ({ img, title, category, link, techStackImgs, className, ...pro
                     <h3 className='text-[24px] font-medium'>{title}</h3>
                     <p className='text-[20px] font-normal text-[#868490]'>{category}</p>
                 </div>
-                <div className='flex flex-wrap items-center justify-start gap-5 px-4 pb-4 translate-y-40 group-hover:translate-y-0 transition-transform'>
+                <div className='flex flex-wrap items-center justify-start gap-5 px-4 pb-4 lg:translate-y-40 group-hover:translate-y-0 transition-transform'>
                     <Image src={'/minimalistic_portfolio-assets/public/next.svg'} width={30} height={30} alt=''/>
                 </div>
             </div>

@@ -14,6 +14,7 @@ const IconAnimation = ({i,children,className,...props}:IconAnimationProps) => {
             variants={iconContainer}
             initial={'hidden'}
             whileInView={iconContainer.show(i)}
+            viewport={{once:true,amount:0.25}}
             className={cn('w-12 h-12 rounded-full overflow-hidden relative bg-yellow-100`',className,props)}>
             {children}
         </motion.div>
