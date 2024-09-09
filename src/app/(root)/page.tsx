@@ -1,6 +1,7 @@
-import Hero from "@/components/Hero";
+import About from "@/components/about";
+import Hero from "@/components/hero";
 import Portfolio from "@/components/portfolio";
-import Skill from "@/components/Skill";
+import Skill from "@/components/skill";
 import SwiperBar from "@/components/swiperBar";
 
 export default function Home() {
@@ -22,6 +23,10 @@ export default function Home() {
       {/* portfolio section */}
       <section className="wrapper relative" id="portfolio">
         <Portfolio />
+      </section>
+      {/* about section */}
+      <section className="wrapper relative" id="about">
+        <About />
       </section>
 
     </main>

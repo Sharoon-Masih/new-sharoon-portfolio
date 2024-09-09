@@ -16,7 +16,7 @@ const Workcard = ({ img, title, category, link, techStackImgs, className, ...pro
 
         <Link href={link} target='_blank' className={cn('w-full xl:w-[360px] bg-[#101B2E] rounded-md box-border overflow-hidden bg-opacity-50 backdrop-blur-sm', className, props)}>
             {/* card-image */}
-            <div className='h-[270px] w-full hover:scale-90 transition relative'>
+            <div className='h-[270px] w-full active:scale-90 transition relative'>
                 <Image src={img} alt={title} fill sizes='medium' className='object-center' />
             </div>
             {/* card-info */}

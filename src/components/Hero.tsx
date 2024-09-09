@@ -23,7 +23,7 @@ const Hero = () => {
     return (
         
         <motion.div
-        animate={{opacity:1,}}
+        animate={{opacity:1}}
         // animate={{ x: 100 }}
         transition={{ type: "spring", stiffness: 100, duration:0.5 }}
         initial={{opacity:0}}
