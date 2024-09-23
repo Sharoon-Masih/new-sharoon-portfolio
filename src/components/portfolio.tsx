@@ -17,7 +17,7 @@ return (
         </Link>
     </div>
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center'>
-        {Projects.map((item) => <Workcard category={item.category} title={item.title} img={item.img}link={item.link} key={item.title}/>)}
+        {Projects.slice(0,3).map((item) => <Workcard category={item.category} title={item.title} img={item.img}link={item.link} key={item.title} techStackImgs={item.techStackImgs}/>)}
 
     </div>
 </div>

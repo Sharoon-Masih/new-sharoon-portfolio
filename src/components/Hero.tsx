@@ -34,7 +34,7 @@ const Hero = () => {
                     <p className="text-[#868490] text-[45px] md:text-[47px] lg:text-[40px] font-semibold">JamStack Devloper</p>
                     <Typewriter words={['Sharoon Masih','ChatGpt Dev','AI Enthusiast','Co-Founder']} typeSpeed={100} deleteNum={50} loop={false} className='h-[120px]'/>
                     <span className='mt-[50px] sm:mt-[30px] w-[183px] h-[8px] bg-[#F8E7A1] '></span>
-                    <p className='font-medium text-[20px] text-[#868490] mt-[25px] sm:px-3 sm:text-center lg:w-[387px] lg:h-[216px] lg:text-start lg:px-0'>Eget malesuada tortor ut sed. Tincidunt viverra malesuada nisl vehicula vestibulum. Ut blandit fermentum, cursus nulla. Imperdiet neque mi convallis quis interdum sagittis.</p>
+                    <p className='font-medium text-[20px] text-[#868490] mt-[25px] sm:px-3 sm:text-center lg:w-[387px] lg:h-[216px] lg:text-start lg:px-0'>I&apos;m Sharoon Masih, Co-Founder, JamStack & ChatGpt Developer at Techverse51. My professional experience spans over 11 months, with a strong background in various technologies including Next.js, Tailwind CSS, TypeScript, HTML, CSS, MongoDB, Supabase, Sanity, CustomGpt and Zapier.</p>
                 </div>
                 {/* Dp at large screen */}
                 <div className='z-0 absolute  hidden lg:block lg:left-[45%] xl:left-[40%] lg:mt-[30px]'>
