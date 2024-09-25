@@ -3,11 +3,9 @@ import Contact from "@/components/contact";
 import Hero from "@/components/Hero";
 import Portfolio from "@/components/portfolio";
 import Service from "@/components/service";
-import Upbtn from "@/components/shared/up-btn";
+import Chatbot from "@/components/shared/chatbot";
 import Skill from "@/components/Skill";
 import SwiperBar from "@/components/swiperBar";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -42,7 +40,7 @@ export default function Home() {
         <section className="relative" id="contact">
           <Contact />
         </section>
-        {/* <Upbtn /> */}
+        <Chatbot />
       </main>
       {/* vector 1 */}
       <div
