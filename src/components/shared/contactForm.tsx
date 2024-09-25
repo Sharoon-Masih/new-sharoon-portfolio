@@ -25,7 +25,6 @@ const ContactForm = () => {
         try {
             const newClient: ClientActionParams = await createClient(values)
             toast.success('Sumitted')
-            form.reset()
             return newClient
         } catch (error) {
             console.log('the error is: ', error);
