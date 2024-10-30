@@ -6,11 +6,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: 'Complete Portfolio',
-  description: "Hey, I'm Sharoon, a seasoned web developer with a passion for Blockchain and AI technologies. Alongside my expertise, I co-founded and currently lead Techverse51, a vibrant community initiative. Over the months, I've spearheaded numerous projects, with standout examples featured in the project section below. Let's connect and explore how we can innovate together.",
-};
-
 const CompletePortfolio = () => {
   return (
     <main className='z-10 relative'>
